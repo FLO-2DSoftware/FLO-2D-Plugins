@@ -1,0 +1,6 @@
+<plugins>
+  <pyqgis_plugin name="flo2d_mapcrafter" version="0.3.0">
+    <qgis_minimum_version>3.0</qgis_minimum_version>
+		<download_url>https://github.com/FLO-2DSoftware/FLO-2D-Plugins/raw/refs/heads/main/flo2d_mapcrafter.zip</download_url>
+  </pyqgis_plugin>
+</plugins>
