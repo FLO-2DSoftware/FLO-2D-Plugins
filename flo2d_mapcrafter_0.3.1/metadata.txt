@@ -2,7 +2,7 @@
 name=FLO-2D MapCrafter
 qgisMinimumVersion=3.0
 description=This plugin creates maps and plots from FLO-2D output files.
-version=0.3.0
+version=0.3.1
 author=FLO-2D Software, Inc.
 email=contact@flo-2d.com
 
