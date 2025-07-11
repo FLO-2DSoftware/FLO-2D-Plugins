@@ -1,7 +1,7 @@
 <plugins>
   <pyqgis_plugin name="FLO-2D MapCrafter 0.3.1" version="0.3.1">
     <qgis_minimum_version>3.0</qgis_minimum_version>
-    <download_url>https://github.com/FLO-2DSoftware/FLO-2D-Plugins/raw/main/FLO-2D MapCrafter 0.3.1/flo2d_mapcrafter_0.3.1.zip</download_url>
+    <download_url>https://github.com/FLO-2DSoftware/FLO-2D-Plugins/raw/main/FLO-2D MapCrafter 0.3.1/FLO-2D MapCrafter 0.3.1.zip</download_url>
     <description>Generate interactive flood maps using FLO-2D outputs</description>
     <author>FLO-2D Software</author>
     <homepage>https://flo-2d.com</homepage>
@@ -13,7 +13,7 @@
 
   <pyqgis_plugin name="FLO-2D MapCrafter 0.3.0" version="0.3.0">
     <qgis_minimum_version>3.0</qgis_minimum_version>
-    <download_url>https://github.com/FLO-2DSoftware/FLO-2D-Plugins/raw/main/FLO-2D MapCrafter 0.3.0/flo2d_mapcrafter_0.3.0.zip</download_url>
+    <download_url>https://github.com/FLO-2DSoftware/FLO-2D-Plugins/raw/main/FLO-2D MapCrafter 0.3.0/FLO-2D MapCrafter 0.3.0.zip</download_url>
     <description>Generate interactive flood maps using FLO-2D outputs</description>
     <author>FLO-2D Software</author>
     <homepage>https://flo-2d.com</homepage>
@@ -25,7 +25,7 @@
 
   <pyqgis_plugin name="FLO-2D MapCrafter 0.1.0" version="0.1.0">
     <qgis_minimum_version>3.0</qgis_minimum_version>
-    <download_url>https://github.com/FLO-2DSoftware/FLO-2D-Plugins/raw/main/FLO-2D MapCrafter 0.1.0/flo2d_mapcrafter_0.1.0.zip</download_url>
+    <download_url>https://github.com/FLO-2DSoftware/FLO-2D-Plugins/raw/main/FLO-2D MapCrafter 0.1.0/FLO-2D MapCrafter 0.1.0.zip</download_url>
     <description>Generate interactive flood maps using FLO-2D outputs</description>
     <author>FLO-2D Software</author>
     <homepage>https://flo-2d.com</homepage>
