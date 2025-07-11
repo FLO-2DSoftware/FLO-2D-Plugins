@@ -1,6 +1,14 @@
 <plugins>
+  <pyqgis_plugin name="FLO-2D MapCrafter 0.3.1" version="0.3.1">
+    <qgis_minimum_version>3.0</qgis_minimum_version>
+		<download_url>https://github.com/FLO-2DSoftware/FLO-2D-Plugins/raw/refs/heads/main/flo2d_mapcrafter_0.3.1.zip</download_url>
+  </pyqgis_plugin>
   <pyqgis_plugin name="FLO-2D MapCrafter 0.3.0" version="0.3.0">
     <qgis_minimum_version>3.0</qgis_minimum_version>
-		<download_url>https://github.com/FLO-2DSoftware/FLO-2D-Plugins/raw/refs/heads/main/flo2d_mapcrafter.zip</download_url>
+		<download_url>https://github.com/FLO-2DSoftware/FLO-2D-Plugins/raw/refs/heads/main/flo2d_mapcrafter_0.3.1.zip</download_url>
+  </pyqgis_plugin>
+  <pyqgis_plugin name="FLO-2D MapCrafter 0.1.0" version="0.1.0">
+    <qgis_minimum_version>3.0</qgis_minimum_version>
+		<download_url>https://github.com/FLO-2DSoftware/FLO-2D-Plugins/raw/refs/heads/main/flo2d_mapcrafter_0.1.0.zip</download_url>
   </pyqgis_plugin>
 </plugins>

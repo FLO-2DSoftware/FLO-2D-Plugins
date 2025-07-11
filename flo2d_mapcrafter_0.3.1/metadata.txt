@@ -1,0 +1,42 @@
+[general]
+name=FLO-2D MapCrafter
+qgisMinimumVersion=3.0
+description=This plugin creates maps and plots from FLO-2D output files.
+version=0.3.0
+author=FLO-2D Software, Inc.
+email=contact@flo-2d.com
+
+about=FLO-2D MapCrafter is a QGIS plugin designed to transform FLO-2D output files into comprehensive visualizations. It generates flood maps for single-phase simulations, sediment maps, mudflow maps, and two-phase simulation flood maps. Additionally, MapCrafter goes beyond by creating hazard maps, highlighting areas with elevated risks based on FLO-2D simulations, aiding in risk management. The plugin also streamlines the QGIS layout manager process by automatically generating templates for easy customization.
+
+tracker=https://github.com/FLO-2DSoftware/FLO-2DMapCrafter/issues
+repository=https://github.com/FLO-2DSoftware/FLO-2DMapCrafter
+
+hasProcessingProvider=no
+
+changelog=
+    <p>0.3.0
+        - Improved the code to calculate the grid size
+        - Removed the shapely library
+        - Removed the necessity of the geopandas library
+        - Fixed deprecation warnings
+        - Removed profile plot
+        - Disabled the group that's not selected when changing tabs
+    <p>0.2.1
+        - Maximum and final vector scales added
+        - Units added to tooltips
+    <p>0.2.0
+        - Storm Drain plots added
+    <p>0.1.0
+        - First stable version released!
+
+tags=python, mapping, FLO-2D, flow routing, storm drain plots
+
+homepage=https://github.com/FLO-2DSoftware/FLO-2DMapCrafter/wiki
+category=Plugins
+icon=icon.png
+experimental=False
+deprecated=False
+
+python_dependencies=swmmio==0.7.1
+server=False
+license=GPLv2
