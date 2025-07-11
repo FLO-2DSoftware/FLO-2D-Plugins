@@ -1,5 +1,5 @@
 [general]
-name=flo2d_mapcrafter
+name=flo2d_mapcrafter_v010
 qgisMinimumVersion=3.0
 description=This plugin creates maps from FLO-2D output files.
 version=0.1.0
