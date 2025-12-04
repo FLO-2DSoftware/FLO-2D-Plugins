@@ -11,4 +11,16 @@
     <experimental>False</experimental>
     <deprecated>False</deprecated>
   </pyqgis_plugin>
+    <pyqgis_plugin name="FLO-2D Gila v1.0.1" version="1.0.1">
+    <qgis_minimum_version>3.0</qgis_minimum_version>
+    <download_url>https://github.com/FLO-2DSoftware/FLO-2D-Plugins/raw/refs/heads/main/FLO-2DGila/flo2d.zip</download_url>
+    <description>FLO-2D tools for QGIS.</description>
+    <about>The FLO-2D Plugin for QGIS is a tool to develop, format, analyze, and display data used by the FLO-2D Flood Model. The Plugin can import project data, generate data and ex-port appropriately formatted FLO-2D data input files for a FLO-2D Project. The FLO-2D-Plugin reference manual, installed on your computer with the software, describes the assumptions, functions, and processes applied in the QGIS Plugin. A companion manual, the FLO-2D QGIS Plugin User’s Manual, describes the workflow, outlines the data structure and presents tutorials for the Plugin. It does not address the functionality and use of the FLO-2D model which has a separate set of reference manuals.</about>
+    <author>FLO-2D Software, Inc.</author>
+    <homepage>https://flo-2d.com</homepage>
+    <category>Analysis</category>
+    <tags>flow, 2d, grid, preprocess, geopackage, FLO-2D, flood modeling, 2d modeling</tags>
+    <experimental>False</experimental>
+    <deprecated>False</deprecated>
+  </pyqgis_plugin>
 </plugins>
