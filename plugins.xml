@@ -10,6 +10,6 @@
     <tags>python, mapping, flo-2d, flow routing, storm drain plots</tags>
     <experimental>False</experimental>
     <deprecated>False</deprecated>
-    <icon>MapCrafter.png</icon>
+    <icon>icon.png</icon>
   </pyqgis_plugin>
 </plugins>
