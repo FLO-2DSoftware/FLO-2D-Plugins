@@ -1,5 +1,5 @@
 <plugins>
-  <pyqgis_plugin name="FLO-2D MapCrafter" version="1.0.0">
+  <pyqgis_plugin name="FLO-2D MapCrafter v1.0.0" version="1.0.0">
     <qgis_minimum_version>3.0</qgis_minimum_version>
     <download_url>https://github.com/FLO-2DSoftware/FLO-2D-Plugins/raw/refs/heads/main/FLO-2DMapCrafter/flo2d_mapcrafter.zip</download_url>
     <description>This plugin creates maps and plots from FLO-2D output files.</description>
