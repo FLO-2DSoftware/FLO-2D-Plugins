@@ -11,7 +11,7 @@
     <experimental>False</experimental>
     <deprecated>False</deprecated>
   </pyqgis_plugin>
-    <pyqgis_plugin name="FLO-2D Gila v1.0.1" version="1.0.1">
+    <pyqgis_plugin name="FLO-2D Gila v2.0.0" version="2.0.0">
     <qgis_minimum_version>3.0</qgis_minimum_version>
     <download_url>https://github.com/FLO-2DSoftware/FLO-2D-Plugins/raw/refs/heads/main/FLO-2DGila/flo2d.zip</download_url>
     <description>FLO-2D tools for QGIS.</description>
