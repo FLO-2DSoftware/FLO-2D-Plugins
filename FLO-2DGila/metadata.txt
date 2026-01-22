@@ -33,12 +33,16 @@ changelog=
     Add user preference handling for quick run export type
 	Improved how the switches are handled on the components
 	Added safe imports for external libraries
+    Added help buttons
+    Added FLORunner functionality on the FLO-2D Toolbar
  - HDF5
     Import from HDF5 files
 	Check if file is open before exporting
  - Grid Tools
     Added a filter on create grid from external layer
     Added a filter on ARF & WRF from external layer
+    Use project default cell size from cont table to create grid when no cell size value is provided by the user
+    Add cancel functionality to grid creation and element checking processes
  - Pre-processing Tools
     Added a raster converter to quickly convert raster units
     Initialize GeoPackage connection in pre-processing widget 
@@ -48,15 +52,20 @@ changelog=
     Added the Areas Editor
     Added the Steep Slope n file creation
     Added the LID volume file creation
+    Fixed ARF_GLOBAL dataset creation
  - Initial Condition Editor
     Populate data on the comboboxes based on the signal of layer edited   
  - Floodplain Cross-Section Editor
     Fixed the bug of setting the iflo direction as the extension of the cross sections instead of a perpendicular direction
     Populate data on the comboboxes based on the signal of layer edited
     Improved the IFLO directions combobox
+    Read the FPXSEC results from TIMDEPFPXSEC.HDF5
+    Improved the floodplain cross section identification
  - Channel Editor
     Update channel SQL queries to include 'ibaseflow' and adjust data handling in CHAN_GLOBAL
     Handle None values in channel geometry construction to prevent errors
+    Update channel confluences query 
+    Enhance sediment transport logic
  - Hydraulic Structures
     Changed the number to the name of the structure and clicking on the map and on the plot
  - Boundary Condition Editor
@@ -77,13 +86,16 @@ changelog=
     Connect afterCommitChanges signals to populate profile plot
  - Infiltration Editor
     Fixed the SSURGO and improved messages
+    Fixed a bug on the channel infiltration
  - Levees and Breach Editor
     Changed the elevation correction processing to a SQL processing
+    Add a breach data validation for ILEVFAIL = 2
  - Rain Editor
     Refined export logic to ensure 'export_raincell' is conditionally removed based on realtime rainfall group status
 	Editor enhanced
 	Added the RAINCELLRAW
 	Added support to ERA5-Land data
+    Fixed a bug on the Buildings checkbox
  - Multiple Domain Editor
     First stable version of the Multi Domain Editor for MULTIDOMAIN.DAT
     Add subdomain rendering functionality to grid info widget
@@ -112,6 +124,9 @@ changelog=
 	Storm Drain animation fixes
 	ARF WRF improved
 	Improvements in data handling on the BC editor
+    Fixed the right and left bank elevation for hdf5 export
+    Added the missing storm drain layers to the clear geopackage function
+    Export channel to hdf5 fix
 	
  <p>1.0.1
  - General
