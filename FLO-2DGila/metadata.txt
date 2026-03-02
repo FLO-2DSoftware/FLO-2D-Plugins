@@ -1,6 +1,6 @@
 [general]
 name=FLO-2D
-version=2.0.0
+version=2.1.0
 qgisMinimumVersion=3.22
 qgisMaximumVersion=3.99
 description=FLO-2D tools for QGIS
@@ -9,6 +9,9 @@ email=contact@flo-2d.com
 about=The FLO-2D Plugin for QGIS is a tool to develop, format, analyze, and display data used by the FLO-2D Flood Model. The Plugin can import project data, generate data and ex-port appropriately formatted FLO-2D data input files for a FLO-2D Project. The FLO-2D-Plugin reference manual, installed on your computer with the software, describes the assumptions, functions, and processes applied in the QGIS Plugin. A companion manual, the FLO-2D QGIS Plugin User’s Manual, describes the workflow, outlines the data structure and presents tutorials for the Plugin. It does not address the functionality and use of the FLO-2D model which has a separate set of reference manuals.
 
 changelog=
+ <p>2.1.0
+ - Breach Hydrograph Tool
+    Added the breach hydrograph tool to generate water and tailings outflow breach hydrographs
  <p>2.0.0
  - General
     Add warnings for missing CHAN.DAT, SUMMARY.OUT, and CADPTS.DAT files in run profiles, hydrog, and maxplot functions
@@ -21,7 +24,7 @@ changelog=
     Improved tooltips
     Code cleanup
     Removed the "Raster not found" message
-    Automatically turn on switches 
+    Automatically turn on switches
     Improved the efficiency of exporting FPFROUDE
     Updated minimum value for Increment n Value at runtime to allow negative inputs
     Updated tooltips
@@ -45,7 +48,7 @@ changelog=
     Add cancel functionality to grid creation and element checking processes
  - Pre-processing Tools
     Added a raster converter to quickly convert raster units
-    Initialize GeoPackage connection in pre-processing widget 
+    Initialize GeoPackage connection in pre-processing widget
     Connect layer added and removed signals to update raster combo box in pre-processing widget
     Refactorred raster combobox population to retrieve all raster layers in the project
  - Areas Editor
@@ -54,7 +57,7 @@ changelog=
     Added the LID volume file creation
     Fixed ARF_GLOBAL dataset creation
  - Initial Condition Editor
-    Populate data on the comboboxes based on the signal of layer edited   
+    Populate data on the comboboxes based on the signal of layer edited
  - Floodplain Cross-Section Editor
     Fixed the bug of setting the iflo direction as the extension of the cross sections instead of a perpendicular direction
     Populate data on the comboboxes based on the signal of layer edited
@@ -64,7 +67,7 @@ changelog=
  - Channel Editor
     Update channel SQL queries to include 'ibaseflow' and adjust data handling in CHAN_GLOBAL
     Handle None values in channel geometry construction to prevent errors
-    Update channel confluences query 
+    Update channel confluences query
     Enhance sediment transport logic
  - Hydraulic Structures
     Changed the number to the name of the structure and clicking on the map and on the plot
@@ -120,14 +123,14 @@ changelog=
     PROJ_NAME on metadata
 	Wait cursor
 	Fixes on bridge routine
-	Levees enhancements 
+	Levees enhancements
 	Storm Drain animation fixes
 	ARF WRF improved
 	Improvements in data handling on the BC editor
     Fixed the right and left bank elevation for hdf5 export
     Added the missing storm drain layers to the clear geopackage function
     Export channel to hdf5 fix
-	
+
  <p>1.0.1
  - General
 	Added SWMM 5 GUI to the toolbar
@@ -150,7 +153,7 @@ changelog=
 	Created the new RAINCELL.DAT format
  - Storm Drain Editor
 	SWMM.INP and FLO-2D Storm Drain DAT files in alphabetical order
-	Set the weir end contraction to integer 
+	Set the weir end contraction to integer
  - Results Tool
 	Changed pandas library to numpy
  <p>1.0.0
