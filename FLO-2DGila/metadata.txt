@@ -29,7 +29,7 @@ changelog=
     Improved tooltips
     Code cleanup
     Removed the "Raster not found" message
-    Automatically turn on switches 
+    Automatically turn on switches
     Improved the efficiency of exporting FPFROUDE
     Updated minimum value for Increment n Value at runtime to allow negative inputs
     Updated tooltips
@@ -53,7 +53,7 @@ changelog=
     Add cancel functionality to grid creation and element checking processes
  - Pre-processing Tools
     Added a raster converter to quickly convert raster units
-    Initialize GeoPackage connection in pre-processing widget 
+    Initialize GeoPackage connection in pre-processing widget
     Connect layer added and removed signals to update raster combo box in pre-processing widget
     Refactorred raster combobox population to retrieve all raster layers in the project
  - Areas Editor
@@ -62,7 +62,7 @@ changelog=
     Added the LID volume file creation
     Fixed ARF_GLOBAL dataset creation
  - Initial Condition Editor
-    Populate data on the comboboxes based on the signal of layer edited   
+    Populate data on the comboboxes based on the signal of layer edited
  - Floodplain Cross-Section Editor
     Fixed the bug of setting the iflo direction as the extension of the cross sections instead of a perpendicular direction
     Populate data on the comboboxes based on the signal of layer edited
@@ -72,7 +72,7 @@ changelog=
  - Channel Editor
     Update channel SQL queries to include 'ibaseflow' and adjust data handling in CHAN_GLOBAL
     Handle None values in channel geometry construction to prevent errors
-    Update channel confluences query 
+    Update channel confluences query
     Enhance sediment transport logic
  - Hydraulic Structures
     Changed the number to the name of the structure and clicking on the map and on the plot
@@ -128,14 +128,14 @@ changelog=
     PROJ_NAME on metadata
 	Wait cursor
 	Fixes on bridge routine
-	Levees enhancements 
+	Levees enhancements
 	Storm Drain animation fixes
 	ARF WRF improved
 	Improvements in data handling on the BC editor
     Fixed the right and left bank elevation for hdf5 export
     Added the missing storm drain layers to the clear geopackage function
     Export channel to hdf5 fix
-	
+
  <p>1.0.1
  - General
 	Added SWMM 5 GUI to the toolbar
@@ -158,7 +158,7 @@ changelog=
 	Created the new RAINCELL.DAT format
  - Storm Drain Editor
 	SWMM.INP and FLO-2D Storm Drain DAT files in alphabetical order
-	Set the weir end contraction to integer 
+	Set the weir end contraction to integer
  - Results Tool
 	Changed pandas library to numpy
  <p>1.0.0
