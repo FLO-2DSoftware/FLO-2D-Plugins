@@ -1,5 +1,5 @@
 <plugins>
-<pyqgis_plugin name="FLO-2D MapCrafter v2.7.0" version="2.7.0">
+<pyqgis_plugin name="FLO-2D MapCrafter v2.7.1" version="2.7.1">
     <qgis_minimum_version>3.0</qgis_minimum_version>
     <qgis_maximum_version>4.99</qgis_maximum_version>
     <download_url>https://github.com/FLO-2DSoftware/FLO-2D-Plugins/raw/refs/heads/main/FLO-2DMapCrafter/flo2d_mapcrafter.zip</download_url>
@@ -11,7 +11,7 @@
     <tags>python, mapping, flo-2d, flow routing, storm drain plots</tags>
     <experimental>False</experimental>
     <deprecated>False</deprecated>
-    <changelog>Version 2.7.0:
+    <changelog>Version 2.7.1:
         - Added compatibility with QGIS 4 and Qt6.
         - Maintained compatibility with QGIS 3 and Qt5.
         - Updated PyQt imports and API enumerations.
